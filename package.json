@@ -1,0 +1,24 @@
+{
+  "name": "backend-lite-bot",
+  "version": "1.0.0",
+  "description": "Backend Lite - Bot de Sinais Futebol Virtual (OVER 1.5 - Estrategia A)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "fetch:copa": "node scripts/fetchCopa.js"
+  },
+  "keywords": [
+    "bot",
+    "futebol-virtual",
+    "lite",
+    "sinais"
+  ],
+  "author": "Dev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
